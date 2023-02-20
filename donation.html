@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Hands For Smile</title>
+        <link rel="stylesheet" href="styleDonate.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head>
+    <body>
+        <nav>
+            <a href="index.php"></a>
+            <div class="nav-links" id="navLinks">
+               
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="staff.html">STAFF</a></li>
+                    <li><a href="volanteer.html">VOLUNTEER</a></li>
+                    <li><a href="donation.html">DONATION</a></li>
+                    
+                    
+                </ul>
+            </div>
+            
+        </nav>
+            
+            <h1>Donation</h1>
+            
+        
+        </section>
+        
+        <div class="wrapper">
+            <h2>Donation Form</h2>
+            <form action="" method="post">
+                <!--Account Information Start-->
+                <h4>Account</h4>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="text" placeholder="Full Name" required class="name">
+                        <i class="fa fa-user icon"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="text" placeholder="Name on Card" required class="name">
+                        <i class="fa fa-user icon"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="email" placeholder="Email Address" required class="name">
+                        <i class="fa fa-envelope icon"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="text" placeholder="Address" required class="name">
+                        <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="text" placeholder="City" required class="name">
+                        <i class="fa fa-institution icon"></i>
+                    </div>
+                </div>
+                <!--Account Information End-->
+    
+    
+                <!--DOB & Gender Start-->
+                <div class="input_group">
+                    <div class="input_box">
+                        <h4>Date Of Birth</h4>
+                        <input type="text" placeholder="DD" required class="dob">
+                        <input type="text" placeholder="MM" required class="dob">
+                        <input type="text" placeholder="YYYY" required class="dob">
+                    </div>
+                    <div class="input_box">
+                        <h4>Gender</h4>
+                        <input type="radio" name="gender" class="radio" id="b1" checked>
+                        <label for="b1">Male</label>
+                        <input type="radio" name="gender" class="radio" id="b2">
+                        <label for="b2">Female</label>
+                    </div>
+                </div>
+                <!--DOB & Gender End-->
+    
+    
+                <!--Payment Details Start-->
+                <div class="input_group">
+                    <div class="input_box">
+                        <h4>Donation Details</h4>
+                        <input type="radio" name="pay" class="radio" id="bc1" checked>
+                        <label for="bc1"><span>
+                                <i class="fa fa-cc-visa"></i>Credit Card</span></label>
+                        <input type="radio" name="pay" class="radio" id="bc2">
+                        <label for="bc2"><span>
+                                <i class="fa fa-cc-paypal"></i>Paypal</span></label>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="tel" name="" class="name" placeholder="Card Number 1111-2222-3333-4444" required>
+                        <i class="fa fa-credit-card icon"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="tel" name="" class="name" placeholder="Card CVC 632" required>
+                        <i class="fa fa-user icon"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <div class="input_box">
+                            <input type="number" placeholder="Exp Month" required class="name">
+                            <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="input_box">
+                        <input type="number" placeholder="Exp Year" required class="name">
+                        <i class="fa fa-calendar-o icon" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <input type="number" placeholder="Enter Amount" required class="name">
+                    <i class="fa fa-money icon" aria-hidden="true"></i>
+                </div>
+                <!--Payment Details End-->
+    
+                <div class="input_group">
+                    <div class="input_box">
+                        <button type="submit">DONATE HERE</button>
+                    </div>
+                </div>
+    
+            </form>
+        </div>
+    
+    </body>
+    
+    </html>

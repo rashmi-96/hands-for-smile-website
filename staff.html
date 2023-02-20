@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Hands For Smile</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+              <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.php"><img src="pic/logo2.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.php">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="project.html">PROJECTS</a></li>
+                        <li><a href="staff.html">STAFF</a></li>
+                        <li><a href="volanteer.html">VOLUNTEER</a></li>
+                        <li><a href="donation.html">DONATION</a></li>
+                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            
+           <h1>Staff</h1>
+            
+        
+        </section>
+        
+ 
+    <!-------staff------------->
+
+    <section>
+        <div class="staff">
+            <div class="container">
+                
+                    <p>Rangahalath Api was another unique Children’s Day programme organized by Hands for
+                        Smile team.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="image">
+                            <img src="pic/Picture1.png" class="img-responsive">
+                            <div>
+                                <h2>Bimasha Chamali</h2>
+                                <h3>President/Founder</h3>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-4">
+                        <div class="image">
+                            <img src="pic/Picture2.png" class="img-responsive">
+                            <div>
+                                <h2>Savishka Vidyani</h2>
+                                <h3>Co-President </h3>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-md-4">
+                        <div class="image">
+                            <img src="pic/Picture3.png" class="img-responsive">
+                                <div>
+                                    <h2>Thamodhi Piusha</h2>
+                                    <h3>Secretary</h3>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="image">
+                            <img src="pic/Picture4.png" class="img-responsive">
+                            <div>
+                            <h2>Sasindu Ashan</h2>
+                            <h3>Vice-Seretary</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+                  
+            </div>
+        </div>
+    </section>
+
+     <!---footer-->
+     <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                    <li class="social-items"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <ul>
+                    <li class="quick-items"><a href="about.html">About Us</a></li>
+                    <li class="quick-items"><a href="staff.html">Team</a></li>
+                    <li class="quick-items"><a href="project.html">Projects</a></li>
+                    <li class="quick-items"><a href="volanteer.html">volunteer</a></li>
+                </ul>
+            </div>
+
+        </div>  
+        <div class="outer-footer">
+            Coppyright &copy; Hands For Smile. All Rights Reserved
+        </div>      
+    </footer>
+        
+        
+ <!-------java script for toggle menu------>       
+        <script>
+            var navLinks =document.getElementById("navLinks")
+            
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+        
+    </body>
+</html>

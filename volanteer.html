@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Hands For Smile</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+              <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.php">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="project.html">PROJECTS</a></li>
+                        <li><a href="staff.html">STAFF</a></li>
+                        <li><a href="volanteer.html">VOLUNTEER</a></li>
+                        <li><a href="donation.html">DONATION</a></li>
+                        
+                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            
+            <h1>Volunteer</h1>
+            
+        
+        </section>
+        
+ 
+      <!-----registraion--------->  
+      <body>
+        <form action="insert.php" method="POST">
+          <div>
+              
+              <h2>Join with us to make a joyfull world</h2>
+              <P>registration fee may apply</P>
+          </div>
+        <div class="wrapper">
+            <div class="title">
+              Registration Form
+            </div>
+            <div class="form">
+               <div class="inputfield">
+                  <label>First Name</label>
+                  <input type="firstname" name="firstname" class="input" required>
+               </div>  
+                <div class="inputfield">
+                  <label>Last Name</label>
+                  <input type="lastname" name="lastname" class="input" required>
+               </div>  
+                <div class="inputfield">
+                  <label>Gender</label>
+                  <input type="gender" name="gender" class="input" required>
+                 
+               </div> 
+                <div class="inputfield">
+                  <label>Email Address</label>
+                  <input type="email" name="email" class="input" required>
+               </div> 
+              <div class="inputfield">
+                  <label>Phone Number</label>
+                  <input type="number" name="number" class="input" required>
+               </div> 
+              <div class="inputfield">
+                  <label>Address</label>
+                  <textarea name="address" class="textarea"></textarea>
+                  
+               </div> 
+              <div class="inputfield">
+                  <label>Registration Fee Recipt</label>
+                  <input type="postalCode" name="postalCode" class="input" required>
+               </div> 
+               
+              <div class="inputfield">
+                <input type="submit" value="Register" class="btn">
+              </div>
+            </div>
+        </div>
+        </form>
+      
+
+        <section class="Contact-us">
+            <h3>Contact Us</h3>
+            <div class="row">
+                <div class="conact-col">
+                    <div>
+                        <p>Telephone:<span class="glyphicon glyphicon-earphone"></span>
+                        </p>
+                            <h5>+94715859110</h5>
+                    </div>
+                    <div>
+                        <p>Email us:<span class="glyphicon glyphicon-envelope"></span>
+                        </p>
+                            <h5>liyanagebimasha142@gmail.com</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body> 
+
+     <!---footer-->
+     <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                    <li class="social-items"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <ul>
+                    <li class="quick-items"><a href="about.html">About Us</a></li>
+                    <li class="quick-items"><a href="staff.html">Team</a></li>
+                    <li class="quick-items"><a href="project.html">Projects</a></li>
+                    <li class="quick-items"><a href="volanteer.html">volunteer</a></li>
+                </ul>
+            </div>
+
+        </div>  
+        <div class="outer-footer">
+            Coppyright &copy; Hands For Smile. All Rights Reserved
+        </div>      
+    </footer>
+    
+
+    
+        
+ <!-------java script for toggle menu------>       
+        <script>
+            var navLinks =document.getElementById("navLinks")
+            
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+        
+    </body>
+</html>
